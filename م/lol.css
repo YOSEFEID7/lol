@@ -1,0 +1,69 @@
+/* خلفية للموقع */
+body {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    font-family: 'Cairo', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* كارت المعلومات */
+.card {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+/* الصورة */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+    border: 4px solid #0072ff;
+}
+
+/* النصوص */
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+h2, p {
+    color: #555;
+    margin: 8px 0;
+}
+
+/* الروابط */
+a {
+    color: #0072ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* زر الاغاني */
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #0072ff;
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #005bb5;
+}
