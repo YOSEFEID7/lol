@@ -1,0 +1,48 @@
+body {
+    background-color: #421f70; /* لون بنفسجي غامق */
+    font-family: 'Arial', sans-serif;
+    color: #ffffff; /* خليت الكلام أبيض عشان يبان على الخلفية */
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #f30b0b;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    margin: auto;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    margin-bottom: 20px;
+}
+
+.fav-button {
+    background-color: #f30b0b;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.fav-button:hover {
+    background-color: #c20d0d;
+}
+
+.fav-button a {
+    color: white;
+    text-decoration: none;
+}
